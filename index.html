@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+
   <meta name="author" content="shishir neupane">
   <meta name="description" content="this page contains all the things i am learning about html">
   <title>my first web page</title>
@@ -61,9 +63,47 @@
         </details>
 
       </aside>
+      <br>
+      <table>
+        <caption>my daily schedule</caption>
+        <thead>
+        <tr>
+          <th>&nbsp;</th>
+          <th scope="col">Time</th>
+          <th scope="col">Activity</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">morning</th>
+           <td>
+            <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+           </td>
+           <td>write code </td>
+        </tr>
+        <tr>
+          <th scope="row">break</th>
+           <td>
+            <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+           </td>
+           <td>eat lunch </td>
+        </tr>
+        <tr>
+          <th scope="row"> afternoon</th>
+           <td>
+            <time datetime="12:00">12am</time>-<time datetime="17:00">5pm </time>
+           </td>
+           <td>study another subject </td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">and thats what i do in a day , just eat sleep sleep eat and sometimes code </td>
+          </tr>
+        </tfoot>
+      </table>
     </section>
-
-  </article>
+ </article>
 
   <hr>
 
@@ -104,7 +144,7 @@
     </ul>
     </section>
     <!-- todo : add more places-->
-     
+
      <section>
 
     <h3>places i like to avoid</h3>
